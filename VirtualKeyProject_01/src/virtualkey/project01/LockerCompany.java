@@ -18,7 +18,7 @@ public class LockerCompany {
 			System.out.println("These are files. Sorting by file_name in ascending order");
 			
 			// Iterator inteface and method  1. way for traversing the list
-			Iterator itr = listFile.iterator();
+			Iterator<String> itr = listFile.iterator();
 			while(itr.hasNext()) {
 				System.out.println(itr.next());
 			}
